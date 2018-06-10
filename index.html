@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="css/bootstrapCSS/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrapCSS/bootstrap-theme.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <title>Weight Converter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="display-4 text-center">Coin Converter</h1>
+                <form>
+                    <div class="form-group">
+                        <input id="mainInput" type="number" class="form-control form-control-lg" placeholder="Enter value...">
+                        <input id="btn_Table" type="button" class="btn btn-primary" value="Create Table From JSON" onclick="CreateTableFromJSON()" />
+                    </div>
+                </form>
+                <div id="dollarsOutput"></div>
+                <div id="tableOutput"></div>    
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/bootstrapJS/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</html>
